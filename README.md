@@ -29,4 +29,10 @@ g++ main.cpp
 
 
 
+## macOS
+
+g++ main.cpp -I/opt/homebrew/opt/sfml@2/include \
+             -L/opt/homebrew/opt/sfml@2/lib \
+             -lsfml-graphics -lsfml-window -lsfml-system
+
 
